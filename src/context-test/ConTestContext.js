@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const ConTestContext = React.createContext({
-  someKey: 'initialState',
-})
+  someKey: "initialState",
+  anotherKey: "defaultValue",
+});
 
-export default ConTestContext
+export default ConTestContext;
